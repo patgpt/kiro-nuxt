@@ -1,0 +1,23 @@
+- title: "AI Development"
+  icon: "brain"
+  slug: "ai"
+
+- title: "Web Development"
+  icon: "globe"
+  slug: "web"
+
+- title: "Mobile Development"
+  icon: "smartphone"
+  slug: "mobile"
+
+- title: "Game Development"
+  icon: "gamepad"
+  slug: "game"
+
+- title: "Machine Learning"
+  icon: "cpu"
+  slug: "ml"
+
+- title: "Cloud Solutions"
+  icon: "cloud"
+  slug: "cloud"

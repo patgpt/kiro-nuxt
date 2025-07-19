@@ -1,0 +1,7 @@
+# This file will store contact form submissions
+# Format:
+# - name: "John Doe"
+#   email: "john@example.com"
+#   message: "Interested in your AI services"
+#   subject: "AI Consultation"
+#   timestamp: 2024-01-15T10:30:00Z

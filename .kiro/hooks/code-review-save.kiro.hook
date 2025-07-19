@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Code Review on Save",
+  "description": "Automatically performs a code review when any file is saved, analyzing the code for potential issues, best practices, and improvements",
+  "version": "1",
+  "when": {
+    "type": "userTriggered",
+    "patterns": [
+      "**/*"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A file has been saved. Please perform a comprehensive code review of the saved file, analyzing it for:\n\n1. **Code Quality**: Check for best practices, clean code principles, and maintainability\n2. **Potential Issues**: Look for bugs, security vulnerabilities, performance problems, and edge cases\n3. **Framework Compliance**: Ensure adherence to Nuxt 4, Vue 3, and TypeScript best practices\n4. **DaisyUI Usage**: Verify proper use of DaisyUI components and classes if applicable\n5. **Accessibility**: Check for accessibility issues and improvements\n6. **Performance**: Identify potential performance optimizations\n7. **Documentation**: Suggest improvements to comments and documentation\n\nPlease provide:\n- A summary of the overall code quality\n- Specific issues found with line numbers if applicable\n- Actionable recommendations for improvements\n- Positive feedback on well-written code sections\n\nFocus on being constructive and educational in your feedback."
+  }
+}
